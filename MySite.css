@@ -1,0 +1,44 @@
+#top{
+    padding: 8px;
+    display: flex;
+    justify-content:flex-end;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: skyblue;
+    background-blend-mode: screen;
+}
+.link{
+    padding: 8px 36px;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    color: whitesmoke;
+}
+#content{
+    padding: 8px;
+}
+
+#AboutMe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: bold;
+    font-family:cursive;
+}
+p{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: cursive;
+
+}
+
+.selfie {
+    
+    border: 5px;
+    border-color: black;
+}
