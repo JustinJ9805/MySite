@@ -4,21 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hire Me lol</title>
+    <title></title>
     <link rel="stylesheet" href="MySite.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff&family=Space+Mono&display=swap" rel="stylesheet">
 </head>
-<body style = 'overflow: visible' background="istockphoto-1302189748-170667a.jpeg">
-    <div id="top">
-        <a class = 'link' href = 'MySite.html'>Home</a>
-        <a class = 'link' href = 'Resume.html'>Resume</a>
-        <a class = 'link' href = 'ContactMe.html'>Contact Me</a>
-        <a class = 'link' href='https://github.com/JustinJ9805' target="blank">GitHub</a>
+<body>
+    <header class = "header">
+        <a id= 'link' href='#about'>ABOUT</a>
+        <a id= 'link' href='#projects'>PROJECTS</a>
+        <a id= 'link' href='#contact'>CONTACTs</a>
+    </header>
+    <br>
+    <div class='section' id="about">
+        <h1 id="intro_line">Hello!</h1>
+        <br>
+        <h3 id="tag_line">I'm <span id='red'>Justin</span> and I make websites</span>. </h3>
+        <p>I've been working as a Junior Developer for the past 3 years. I  am currently in my senior year at Hunter College, City University of New York and expect to graduate in the Spring of 2023 with my Bachelors in Computer Science</p>
+        <br>
+        <h2> Skills and Tools</h2>
+        <br>
+        <ul>
+            <li>HTML, CSS, & JavaScript</li>
+            <br>
+            <li>C++</li>
+            <br>
+            <li>Python</li>
+            <br>
+            <li>SQL</li>
+            <br>
+            <li>Git/GitHub</li>
+            <li></li>
+        </ul>
     </div>
-    <div id= "content">
-        <h2 id = 'AboutMe'>Hello, World!</h2>
-        <img class = 'selfie' src = '' alt = "selfie">
-        <p> Hey, Im Justin and I'm a software and web developer located in New York City! I'm currently in my final year at Hunter College where I am pursuing my B.A. in Computer Science. If you want to learn more about me and what I do, feel free to look around :) </p>
+    <div class="section" id="projects">
+        <h2>Take a look at some things I built!</h2>
+        <br>
+        <h3>If you want to see more, checkout my Github</h3>
+        <br>
+        <a link id="github" href="https://github.com/JustinJ9805" target="_blank">GitHub</a>
+        
     </div>
+    <br>
+    <div class="section" id="contact">
+        <h2>Lets get in touch</h2>
+        <br>
+        <form class = 'form' action= "mailto:justinj9805@gmail.com" method= "POST" enctype= "text/plain">
+            <div>
+                <label for="name">Name:
+                    <input id="input" type="text" name="name" id="name" />
+                  </label>
+            </div>
+            <br>
+            <div>
+                <label for="email">Email:
+                    <input id="input" type="text" name="email" id="email" />
+                  </label>
+            </div>
+            <br>
+            <div>
+                <label for="phone">Phone:
+                    <input id="input" type="text" name="phone" id="phone" />
+                  </label>
+            </div>
+            <br>
+            <div>
+                <label>Message:</label>
+                <br />
+                <textarea name="message" rows="40" cols='40'></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="submit" name="submit" value="Send" />
+                <input type="reset" name="reset" value="Clear Form" />
+              </div>
+        </form>
 
+
+    </div>
 </body>
 </html>

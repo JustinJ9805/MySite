@@ -1,44 +1,41 @@
-#top{
-    padding: 8px;
-    display: flex;
-    justify-content:flex-end;
-}
-body{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color:skyblue;
-    background-blend-mode: screen;
-}
-.link{
-    padding: 8px 36px;
-    font-size: 20px;
-    font-family:'Courier New', Courier, monospace;
+* {
+    background-image: url('nasa-Q1p7bh3SHj8-unsplash.jpg');
+    display: inline-block;
+    font-family: 'DynaPuff', cursive;
     color: whitesmoke;
 }
-#content{
-    padding: 8px;
-}
-
-#AboutMe{
+.header{
     display: flex;
     justify-content: center;
-    align-items: center;
-    color: whitesmoke;
+    position:fixed;
+    z-index: 1;
     font-size: 24px;
-    font-weight: bold;
-    font-family:cursive;
-}
-p{
-    display: flex;
-    justify-content: flex-start;
-    font-size: 20px;
-    color: whitesmoke;
-    font-family: cursive;
-
-}
-
-.selfie {
+    width: 100%;
+    gap: 12px;
     
-    border: 5px;
-    border-color: black;
+}
+
+p{
+    font-size: 22px;
+}
+#tag_line{
+    font-size: 28px;
+}
+
+#red{
+    color: red;
+}
+
+#input{
+    border-width: 2px;
+    border-color: whitesmoke;
+
+}
+
+#github{
+    font-size: 24px;
+}
+
+li{
+    font-size: 20px;
 }
